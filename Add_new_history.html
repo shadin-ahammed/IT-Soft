@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Add New Hisory</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/w3/style2.css">
+  <link rel="stylesheet" href="css/style.css">
+<style>
+    .navbar{
+       margin-left: 25% !important;
+       width: 75%;
+       overflow: hidden;
+       padding: 11.3px;
+       background-color: rgb(252, 249, 249);
+       border: 0px solid rgb(236, 231, 231);
+ 	     border-bottom-width: 4px;
+    }
+    .main-body{
+        margin-left: 25% !important;
+        width: 75%;
+        position: absolute;
+    }
+   
+</style>
+
+</head>
+<body>
+  <div class="side-nav">
+    <div class="sidebar">
+        <div class="side-nav">
+            <div class="logo">
+              <a style="font-style: italic;" href="index.html">itmis<img src="" alt=""></a>
+            </div>
+          </div> 
+        <div class="side-menu">
+          <button class="dropdown-btn"><i class="fas fa-database data-icon"></i>Basic Data
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="hw_item.html"><i class="fas fa-satellite-dish data-icon"></i>HWItem</a>
+            <a href="es_mster.html"><i class="fab fa-accusoft data-icon"></i>ESMster</a>
+          </div>
+          <button class="dropdown-btn"><i class="fab fa-sith data-icon"></i>IT
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="history.html"><i class="fas fa-history data-icon"></i>Hisory(Support)</a>
+            <a href="inventory.html"><i class="fas fa-splotch data-icon"></i>INventory</a>
+            <a href="digital_Add_new.html"><i class="fas fa-sticky-note data-icon"></i>Digial Note</a>
+            <a href="process_problem.htm"><i class="fas fa-times data-icon"></i>Process Problem Log</a>
+            <a href="non_returanable.html"><i class="fas fa-bell-slash data-icon"></i>Non Returned</a>
+            <a href="tech_learn_link.html"><i class="fas fa-chalkboard-teacher data-icon"></i>Teach Learn Link</a>
+          </div>
+          <button class="dropdown-btn"><i class="fab fa-creative-commons-sampling-plus data-icon"></i>Active Instro
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="monitor.html"><i class="fas fa-desktop data-icon"></i>Monitor</a>
+            <a href="printer.html"><i class="fas fa-pager data-icon"></i>Printer</a>
+            <a href="switch.html"><i class="fas fa-ethernet data-icon"></i>Switch</a>
+            <a href="scaner_camera.html"><i class="fas fa-camera data-icon"></i>Scaner& Camera</a>
+            <a href="rta.html"><i class="fab fa-algolia data-icon"></i>RTA</a>
+            <a href="intercom.html"><i class="fas fa-tty data-icon"></i>Intercom</a>
+            <a href="cd_dvd.html"><i class="fas fa-compact-disc data-icon"></i>CD/DVD</a>
+            <a href="HD_tools.html"><i class="fas fa-hdd data-icon"></i>HDTools</a>
+          </div>
+          <button class="dropdown-btn"><i class="fas fa-info-circle data-icon"></i>PC Info
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="pc_info.html"><i class="fas fa-disease data-icon"></i>PC Info</a>
+            <a href="PC_description.html"><i class="fas fa-audio-description data-icon"></i>PC Descripton</a>
+            <a href="pc_check_list.html"> <i class="fas fa-clipboard-check data-icon"></i>PC Checklist</a>
+            <a href="pc_sticker.html"><i class="fas fa-sticky-note data-icon"></i>PC Sticker</a>
+            <a href="used_net_ip.html"><i class="fas fa-wifi data-icon"></i>Used Net IP</a>
+            <a href="pending_transfer.html"><i class="fas fa-exchange-alt data-icon"></i>Pending Transfer</a>
+            <a href="backup_list.html"><i class="fas fa-list-alt data-icon"></i>Backup list</a>
+            <a href="list_of_email.html"><i class="fas fa-mail-bulk data-icon"></i>List Of Email</a>
+          </div>
+          <button class="dropdown-btn"><i class="fas fa-users-cog data-icon"></i>Admin
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="router_info.html"><i class="fab fa-swift data-icon"></i>Router Info</a>
+            <a href="soft_permition.html"><i class="fab fa-app-store-ios data-icon"></i>Soft Permition</a>
+            <a href="support_it_audit.html"><i class="fab fa-steam data-icon"></i>Support-It Audit</a>
+          </div>
+          <button class="dropdown-btn"><i class="fas fa-flag data-icon"></i>Reports
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="out_item_report.html"><i class="fas fa-outdent data-icon"></i>Out item Report</a>
+            <a href="in_item_report.html"><i class="fab fa-xing data-icon"></i>In item Report</a>
+            <a href="used_ip_list.html"><i class="fab fa-atlassian data-icon"></i>Used IP list</a>
+          </div>
+        </div>
+      </div>
+</div>
+<!------------ main navbar start--------- -->
+<div class="main">
+  <nav class="navbar navbar-expand-sm fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand"><i class="fas fa-home"></i></a>
+      <form class="d-flex">
+        <input class="form-control me-2 serch-bar" type="search" placeholder="Search" aria-label="Search">
+        <button class="serch-btn" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+        <button class="btn" type="submit"><i class="fas fa-cog nav-icon"></i></button>
+        <button class="btn" type="submit"><i class="fas fa-user nav-icon"></i></button>
+    </div>
+  </nav>
+</div>
+<!--------------main navbar end------------->
+<div class="container-fluid main-body">
+     <!-- support add new -->
+     <section>
+      <div class="container add">
+          <h2>Support-Histiory,Add New</h2><hr>
+          <div class="row"> 
+              <div class="col-lg">
+                  <h3 class="sm-size">Date</h3>
+                  <input type="text" class="form-control input-box" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                  <h3 class="sm-size">WSNo</h3>
+                  <input type="text" class="form-control input-box" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                  <h3 class="sm-size">Problem Type*</h3>
+                  <input type="text" class="form-control input-box" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                  <h3 class="sm-size">SSO*</h3>
+                  <input type="text" class="form-control input-box" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                  <h3 class="sm-size">ComT(Mints)*</h3>
+                  <input type="text" class="form-control input-box" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                  <div class="data-save sm-size">
+                    <button type="button" class="btn btn-primary">SAVE</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Back To List</button>
+                  </div>
+              </div>
+              <!-- add new right site -->
+              <div class="col-lg">
+                  <h3 class="sm-size">Choose an Option</h3>
+                  <div class="form-check form-check-inline xl-size">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">Remotely</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">Physically</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">IN_House</label>
+                    </div>
+                  <h3 class="l-size">Resolved_Descrip</h3>
+                  <input type="text" class="form-control input-box" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                  <h3 class="l-size">Locuation</h3>
+                  <input type="text" class="form-control input-box" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                  <h3 class="l-size">PC UsearName</h3>
+                  <input type="text" class="form-control input-box" placeholder="" aria-label="" aria-describedby="basic-addon1">   
+              </div>
+          </div>
+      </div>
+  </section>
+</div>
+<script src="./js/main.js"></script>
+ <!-- jQuery and JS bundle w/ Popper.js -->
+ <script src="https://kit.fontawesome.com/68176f7840.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

@@ -52,14 +52,6 @@ h3{
     border-top-width: 3px !important;
 }
 
-.castom .castom-style{
-    font-weight: bold;
-}
-.castom-nav{
-  padding: 15px;
-  border: 0px solid rgb(211, 204, 197);
-  border-bottom-width: 4px;
-}
 /*------------------itmiss style----------------*/
 .data-icon{
   padding: 0px 10px 0px 0px;
@@ -69,7 +61,6 @@ h3{
 /*------------------itmiss style----------------*/
 .navbar{
     padding: 14.7px !important;
-
 }
 .serch-bar{
     border-radius: 5px 0px 0px 5px;
@@ -109,7 +100,7 @@ h3{
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 20%;
   overflow-x: hidden;
   background-color:  rgb(245, 244, 241);
   position: fixed;
@@ -180,32 +171,55 @@ h3{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+  /* main nav-------------------- */
+  .navbar{
+    margin-left: 20% !important;
+    width: 80%;
+    overflow: hidden;
+    padding: 11.3px;
+    background-color: rgb(252, 249, 249);
+    border: 0px solid rgb(236, 231, 231);
+    border-bottom-width: 4px;
+ }
+ .castom .castom-style{
+    font-weight: bold;
+}
+.castom-nav{
+    padding: 15px;
+    border: 0px solid rgb(211, 204, 197);
+    border-bottom-width: 4px;
+}
+ .main-body{
+    margin-left: 21% !important;
+    width: 79%;
+    position: absolute;
+ }
   /* ------end----main menu------- */
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+   width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+   background: #f1f1f1; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: rgb(207, 204, 204); 
+   border-radius: 10px;
+   background: rgb(207, 204, 204); 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  border-radius: 10px; 
+   border-radius: 10px; 
 }
   /* ---------------scroll bar------- */
   .castom-button {
     color:white;
     font-weight: bold;
-    padding: 15px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
     background-color: royalblue;
     border: 1px solid rgb(23, 23, 238);
     border-bottom-width: 5px;
@@ -234,14 +248,14 @@ h3{
   /* ---------history tap section---------- */
   /* Style the tab */
 .tabdata{
-  margin-top: 150px;
+   margin-top: 150px;
 }
 .tab {
-  overflow: hidden;
+   overflow: hidden;
 }
 .tablinks{
-  border: 1px solid #ccc !important;
-  margin-right: 2px;
+   border: 1px solid #ccc !important;
+   margin-right: 2px;
 }
 /* Style the buttons inside the tab */
 .tab button {

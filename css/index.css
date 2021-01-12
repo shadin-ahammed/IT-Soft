@@ -27,40 +27,12 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
-h3{
-  font-size: 20px;
-}
-.size{
- padding:50px;
-  
-}
-.sm-size{
-  margin-top:20px ;
-  
-}
-.m-size{
-  margin-top: 85px;
-}
-.l-size{
-  margin-top: 20px;
-}
-.xl-size{
-  margin-top: 10px;
-}
-.input-box{
-    border: 0.01px solid rgb(236, 235, 235) !important;
-    border-top-width: 3px !important;
-}
 
-/*------------------itmiss style----------------*/
-.data-icon{
-  padding: 0px 10px 0px 0px;
-  color: royalblue;
-}
 
 /*------------------itmiss style----------------*/
 .navbar{
-    padding: 14.7px !important;
+    padding: 12px !important;
+    background-color: rgb(231, 230, 230) !important;
 }
 /* main nav-------------------- */
  .castom .castom-style{
@@ -68,7 +40,7 @@ h3{
 }
 .castom-nav{
     padding: 15px;
-    border: 0px solid rgb(211, 204, 197);
+    border: 1px solid rgb(173, 172, 170);
     border-bottom-width: 4px;
 }
   /* ------end----main menu------- */
